@@ -1,0 +1,142 @@
+# DEV
+
+# workout_type_index:
+#     path: /api/v1/workout-types
+#     controller: App\Controller\WorkoutTypeController::index
+#     methods: GET
+
+# workout_type_create:
+#     path: /api/v1/workout-types
+#     controller: App\Controller\WorkoutTypeController::create
+#     methods: POST
+
+# workout_type_show:
+#     path: /api/v1/workout-types/{id}
+#     controller: App\Controller\WorkoutTypeController::show
+#     methods: GET
+
+# workout_type_update:
+#     path: /api/v1/workout-types/{id}
+#     controller: App\Controller\WorkoutTypeController::update
+#     methods: PUT
+
+# workout_type_delete:
+#     path: /api/v1/workout-types/{id}
+#     controller: App\Controller\WorkoutTypeController::delete
+#     methods: DELETE
+
+
+
+# exercise_index:
+#     path: /api/v1/exercises
+#     controller: App\Controller\ExerciseController::index
+#     methods: GET
+
+# exercise_create:
+#     path: /api/v1/exercises
+#     controller: App\Controller\ExerciseController::create
+#     methods: POST
+
+# exercise_show:
+#     path: /api/v1/exercises/{id}
+#     controller: App\Controller\ExerciseController::show
+#     methods: GET
+
+# exercise_update:
+#     path: /api/v1/exercises/{id}
+#     controller: App\Controller\ExerciseController::update
+#     methods: PUT
+
+# exercise_delete:
+#     path: /api/v1/exercises/{id}
+#     controller: App\Controller\ExerciseController::delete
+#     methods: DELETE
+
+#LOCAL
+
+workout_type_index:
+    path: /workout-types
+    controller: App\Controller\WorkoutTypeController::index
+    methods: GET
+
+workout_type_create:
+    path: /workout-types
+    controller: App\Controller\WorkoutTypeController::create
+    methods: POST
+
+workout_type_show:
+    path: /workout-types/{id}
+    controller: App\Controller\WorkoutTypeController::show
+    methods: GET
+
+workout_type_update:
+    path: /workout-types/{id}
+    controller: App\Controller\WorkoutTypeController::update
+    methods: PUT
+
+workout_type_delete:
+    path: /workout-types/{id}
+    controller: App\Controller\WorkoutTypeController::delete
+    methods: DELETE
+
+
+
+workout_index:
+    path: /workouts
+    controller: App\Controller\WorkoutController::index
+    methods: GET
+
+workout_create:
+    path: /workouts
+    controller: App\Controller\WorkoutController::create
+    methods: POST
+
+workout_show:
+    path: /workouts/{id}
+    controller: App\Controller\WorkoutController::show
+    methods: GET
+
+workout_update:
+    path: /workouts/{id}
+    controller: App\Controller\WorkoutController::update
+    methods: PUT
+
+workout_delete:
+    path: /workouts/{id}
+    controller: App\Controller\WorkoutController::delete
+    methods: DELETE
+
+
+exercise_index:
+    path: /exercises
+    controller: App\Controller\ExerciseController::index
+    methods: GET
+
+exercise_create:
+    path: /exercises
+    controller: App\Controller\ExerciseController::create
+    methods: POST
+
+exercise_show:
+    path: /exercises/{id}
+    controller: App\Controller\ExerciseController::show
+    methods: GET
+
+exercise_update:
+    path: /exercises/{id}
+    controller: App\Controller\ExerciseController::update
+    methods: PUT
+
+exercise_delete:
+    path: /exercises/{id}
+    controller: App\Controller\ExerciseController::delete
+    methods: DELETE
+
+api_login_check:
+    path: /api/login_check
+    methods: POST
+
+register:
+    path: /api/register
+    controller: App\Controller\AuthController::register
+    methods: POST
